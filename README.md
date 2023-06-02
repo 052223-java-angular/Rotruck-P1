@@ -1,4 +1,4 @@
-# P1 - Idividual Programming Project
+# P1 - Individual Programming Project
 
 ## Introduction
 
