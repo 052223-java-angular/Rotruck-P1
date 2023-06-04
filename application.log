@@ -1,0 +1,110 @@
+2023-06-04T13:02:20.651-04:00  INFO 9576 --- [main] c.r.TaskManager.TaskManagerApplication   : Starting TaskManagerApplication using Java 17.0.7 with PID 9576 (C:\Users\crotr\Documents\RevatureProjects\Rotruck-P1-Backend\target\classes started by crotr in C:\Users\crotr\Documents\RevatureProjects\Rotruck-P1-Backend)
+2023-06-04T13:02:20.658-04:00 DEBUG 9576 --- [main] c.r.TaskManager.TaskManagerApplication   : Running with Spring Boot v3.1.1-SNAPSHOT, Spring v6.0.9
+2023-06-04T13:02:20.667-04:00  INFO 9576 --- [main] c.r.TaskManager.TaskManagerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-06-04T13:02:26.953-04:00  WARN 9576 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-04T13:02:27.791-04:00  INFO 9576 --- [main] c.r.TaskManager.TaskManagerApplication   : Started TaskManagerApplication in 7.983 seconds (process running for 8.579)
+2023-06-04T14:48:07.609-04:00  INFO 21640 --- [main] c.r.TaskManager.TaskManagerApplication   : Starting TaskManagerApplication using Java 17.0.7 with PID 21640 (C:\Users\crotr\Documents\RevatureProjects\Rotruck-P1-Backend\target\classes started by crotr in C:\Users\crotr\Documents\RevatureProjects\Rotruck-P1-Backend)
+2023-06-04T14:48:07.615-04:00 DEBUG 21640 --- [main] c.r.TaskManager.TaskManagerApplication   : Running with Spring Boot v3.1.1-SNAPSHOT, Spring v6.0.9
+2023-06-04T14:48:07.630-04:00  INFO 21640 --- [main] c.r.TaskManager.TaskManagerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-06-04T14:48:14.234-04:00  WARN 21640 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-04T14:48:14.832-04:00  INFO 21640 --- [main] c.r.TaskManager.TaskManagerApplication   : Started TaskManagerApplication in 8.11 seconds (process running for 18.608)
+2023-06-04T14:52:39.794-04:00  INFO 8624 --- [main] c.r.TaskManager.TaskManagerApplication   : Starting TaskManagerApplication using Java 17.0.7 with PID 8624 (C:\Users\crotr\Documents\RevatureProjects\Rotruck-P1-Backend\target\classes started by crotr in C:\Users\crotr\Documents\RevatureProjects\Rotruck-P1-Backend)
+2023-06-04T14:52:39.798-04:00 DEBUG 8624 --- [main] c.r.TaskManager.TaskManagerApplication   : Running with Spring Boot v3.1.1-SNAPSHOT, Spring v6.0.9
+2023-06-04T14:52:39.800-04:00  INFO 8624 --- [main] c.r.TaskManager.TaskManagerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-06-04T14:52:45.907-04:00  WARN 8624 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-04T14:52:46.496-04:00  INFO 8624 --- [main] c.r.TaskManager.TaskManagerApplication   : Started TaskManagerApplication in 7.518 seconds (process running for 8.175)
+2023-06-04T15:02:47.092-04:00  INFO 5636 --- [main] c.r.TaskManager.TaskManagerApplication   : Starting TaskManagerApplication using Java 17.0.7 with PID 5636 (C:\Users\crotr\Documents\RevatureProjects\Rotruck-P1-Backend\target\classes started by crotr in C:\Users\crotr\Documents\RevatureProjects\Rotruck-P1-Backend)
+2023-06-04T15:02:47.097-04:00 DEBUG 5636 --- [main] c.r.TaskManager.TaskManagerApplication   : Running with Spring Boot v3.1.1-SNAPSHOT, Spring v6.0.9
+2023-06-04T15:02:47.100-04:00  INFO 5636 --- [main] c.r.TaskManager.TaskManagerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-06-04T15:02:52.301-04:00 ERROR 5636 --- [main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Collection 'com.revature.TaskManager.entities.User.task' is 'mappedBy' a property named 'task' which does not exist in the target entity 'com.revature.TaskManager.entities.Task'
+2023-06-04T15:02:52.311-04:00  WARN 5636 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Collection 'com.revature.TaskManager.entities.User.task' is 'mappedBy' a property named 'task' which does not exist in the target entity 'com.revature.TaskManager.entities.Task'
+2023-06-04T15:02:52.515-04:00 ERROR 5636 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Collection 'com.revature.TaskManager.entities.User.task' is 'mappedBy' a property named 'task' which does not exist in the target entity 'com.revature.TaskManager.entities.Task'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1770) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1156) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:931) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.1-SNAPSHOT.jar:3.1.1-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733) ~[spring-boot-3.1.1-SNAPSHOT.jar:3.1.1-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435) ~[spring-boot-3.1.1-SNAPSHOT.jar:3.1.1-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) ~[spring-boot-3.1.1-SNAPSHOT.jar:3.1.1-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305) ~[spring-boot-3.1.1-SNAPSHOT.jar:3.1.1-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294) ~[spring-boot-3.1.1-SNAPSHOT.jar:3.1.1-SNAPSHOT]
+	at com.revature.TaskManager.TaskManagerApplication.main(TaskManagerApplication.java:10) ~[classes/:na]
+Caused by: org.hibernate.AnnotationException: Collection 'com.revature.TaskManager.entities.User.task' is 'mappedBy' a property named 'task' which does not exist in the target entity 'com.revature.TaskManager.entities.Task'
+	at org.hibernate.boot.model.internal.CollectionBinder.isReversePropertyInJoin(CollectionBinder.java:1568) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder.noAssociationTable(CollectionBinder.java:1582) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder.bindStarToManySecondPass(CollectionBinder.java:1543) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder$1.secondPass(CollectionBinder.java:1534) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.boot.model.internal.CollectionSecondPass.doSecondPass(CollectionSecondPass.java:45) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1846) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1803) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:328) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1380) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1451) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.0.9.jar:6.0.9]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376) ~[spring-orm-6.0.9.jar:6.0.9]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.0.9.jar:6.0.9]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.0.9.jar:6.0.9]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352) ~[spring-orm-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1816) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766) ~[spring-beans-6.0.9.jar:6.0.9]
+	... 16 common frames omitted
+
+2023-06-04T15:03:29.640-04:00  INFO 7008 --- [main] c.r.TaskManager.TaskManagerApplication   : Starting TaskManagerApplication using Java 17.0.7 with PID 7008 (C:\Users\crotr\Documents\RevatureProjects\Rotruck-P1-Backend\target\classes started by crotr in C:\Users\crotr\Documents\RevatureProjects\Rotruck-P1-Backend)
+2023-06-04T15:03:29.645-04:00 DEBUG 7008 --- [main] c.r.TaskManager.TaskManagerApplication   : Running with Spring Boot v3.1.1-SNAPSHOT, Spring v6.0.9
+2023-06-04T15:03:29.647-04:00  INFO 7008 --- [main] c.r.TaskManager.TaskManagerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-06-04T15:03:34.133-04:00 ERROR 7008 --- [main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Collection 'com.revature.TaskManager.entities.User.task' is 'mappedBy' a property named 'task' which does not exist in the target entity 'com.revature.TaskManager.entities.Task'
+2023-06-04T15:03:34.144-04:00  WARN 7008 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Collection 'com.revature.TaskManager.entities.User.task' is 'mappedBy' a property named 'task' which does not exist in the target entity 'com.revature.TaskManager.entities.Task'
+2023-06-04T15:03:34.295-04:00 ERROR 7008 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Collection 'com.revature.TaskManager.entities.User.task' is 'mappedBy' a property named 'task' which does not exist in the target entity 'com.revature.TaskManager.entities.Task'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1770) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1156) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:931) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.1-SNAPSHOT.jar:3.1.1-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733) ~[spring-boot-3.1.1-SNAPSHOT.jar:3.1.1-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435) ~[spring-boot-3.1.1-SNAPSHOT.jar:3.1.1-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) ~[spring-boot-3.1.1-SNAPSHOT.jar:3.1.1-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305) ~[spring-boot-3.1.1-SNAPSHOT.jar:3.1.1-SNAPSHOT]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294) ~[spring-boot-3.1.1-SNAPSHOT.jar:3.1.1-SNAPSHOT]
+	at com.revature.TaskManager.TaskManagerApplication.main(TaskManagerApplication.java:10) ~[classes/:na]
+Caused by: org.hibernate.AnnotationException: Collection 'com.revature.TaskManager.entities.User.task' is 'mappedBy' a property named 'task' which does not exist in the target entity 'com.revature.TaskManager.entities.Task'
+	at org.hibernate.boot.model.internal.CollectionBinder.isReversePropertyInJoin(CollectionBinder.java:1568) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder.noAssociationTable(CollectionBinder.java:1582) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder.bindStarToManySecondPass(CollectionBinder.java:1543) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder$1.secondPass(CollectionBinder.java:1534) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.boot.model.internal.CollectionSecondPass.doSecondPass(CollectionSecondPass.java:45) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1846) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1803) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:328) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1380) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1451) ~[hibernate-core-6.2.2.Final.jar:6.2.2.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.0.9.jar:6.0.9]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376) ~[spring-orm-6.0.9.jar:6.0.9]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.0.9.jar:6.0.9]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.0.9.jar:6.0.9]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352) ~[spring-orm-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1816) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766) ~[spring-beans-6.0.9.jar:6.0.9]
+	... 16 common frames omitted
+
+2023-06-04T15:07:16.416-04:00  INFO 16488 --- [main] c.r.TaskManager.TaskManagerApplication   : Starting TaskManagerApplication using Java 17.0.7 with PID 16488 (C:\Users\crotr\Documents\RevatureProjects\Rotruck-P1-Backend\target\classes started by crotr in C:\Users\crotr\Documents\RevatureProjects\Rotruck-P1-Backend)
+2023-06-04T15:07:16.422-04:00 DEBUG 16488 --- [main] c.r.TaskManager.TaskManagerApplication   : Running with Spring Boot v3.1.1-SNAPSHOT, Spring v6.0.9
+2023-06-04T15:07:16.425-04:00  INFO 16488 --- [main] c.r.TaskManager.TaskManagerApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-06-04T15:07:22.801-04:00  WARN 16488 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-04T15:07:23.854-04:00  INFO 16488 --- [main] c.r.TaskManager.TaskManagerApplication   : Started TaskManagerApplication in 8.277 seconds (process running for 8.954)
