@@ -2,7 +2,8 @@
 
 ## Introduction
 
-This is a Java-based command-line interface (CLI) eCommerce application. The application will be primarily built using Java and will utilize a PostgreSQL database to store product and user information.
+This is full-stack web development project that will utilize a third party api as well as being able to handle requests
+on the backend like an API. This application will be a kanban style task board. You will be able to add tasks, edit tasks, move tasks between the different categories, and delete tasks. The taskboard will give daily inspirational quotes utilizing a 3rd part api.
 
 ## User Stories
 
@@ -34,8 +35,7 @@ This is a Java-based command-line interface (CLI) eCommerce application. The app
 
 ## Tech Stacks
 
--**Angular**: Used in the front end for styling.
-
+- **Angular**: Used in the front end for styling.
 - **HTML**: Used in the front end development of the page.
 - **CSS**: Used to style the page.
 - **REST API**: 3rd party api used to obtain the dad joke.
@@ -43,7 +43,6 @@ This is a Java-based command-line interface (CLI) eCommerce application. The app
 - **PostgreSQL**: Used as the database to store user, product, and order data.
 - **Maven or Gradle**: Used for managing project dependencies.
 - **JUnit**: A testing framework for Java applications, used to ensure our code works as expected.
-- **Log4j**: A logging utility for debugging purposes.
 - **JDBC (Java Database Connectivity)**: An API for connecting and executing queries on the database.
 - **BCrypt**: A Java library for hashing and checking passwords for security.
 - **JUnit, Mockito, and PowerMock**: Used for unit and integration testing.
